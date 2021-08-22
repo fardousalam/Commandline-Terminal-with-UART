@@ -1,5 +1,8 @@
 # UART Command Line Terminal Programming 
 
+# Motivation of this Project
+In Embedded system it's a very common application that we write a command in our terminal and wants to do some actions according to the command. So, this project can be used for this type of work. The developper just need to modify his/her code according to the required acctions.
+
 # Tasks of this Project:
 
 1. Enabling the tera term terminal to receive the command string in UART recieve interrupt mode
@@ -12,6 +15,14 @@
 8. If the Command is "COUNTER", then Count the number of time LED ON and LED OFF
 9. If the Buffer is full then its overloaded buffer
 
-# future works
+# Future works
 1. If the Command is "Move forward", start clockwise motor rotation
 2. if the command is "Move backward", start anticlock wise motor rotation.
+
+# Requirements:
+1. Stm32 Nucleuo board or dicovery board
+2. Stm32 cube id
+ 
+# Installation
+Install the stm32 cube ID in PC and Configure the Project according to the target stm32 board that will be used.
+In this project Nucleo F303RE board was used.
